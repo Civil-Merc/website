@@ -1,3 +1,23 @@
+.featured-projects {
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 767px) {
+  .featured-projects {
+    grid-template-columns: 1fr;
+  }
+}
+
+.logo-footer {
+  height: 72px;
+  width: auto;
+  margin-bottom: 24px;
+}
+
+.grid-footer {
+  grid-template-columns: 2.5fr 1fr 1.4fr;
+}
+
 .navbar .logo {
   height: 44px;
   width: auto;
