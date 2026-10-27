@@ -257,6 +257,17 @@ h1, h2, h3, h4, h5, h6 {
 .grid-hero-services .text-hero-service {
   font-size: 12px;
   letter-spacing: 0.6px;
+  flex: 1;
+}
+
+.grid-hero-services .hero-service {
+  align-items: flex-end;
+  min-height: 3.6em;
+}
+
+.grid-hero-services .icon-arrow {
+  align-self: flex-end;
+  margin-bottom: 3px;
 }
 
 @media screen and (max-width: 991px) {
@@ -438,6 +449,33 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   bottom: 0;
   z-index: 2;
+  box-sizing: border-box;
+  align-items: stretch;
+  padding: 88px 22px 22px;
+}
+
+.team-cards .heading-hero.size-vw {
+  width: 100%;
+  min-height: 2.4em;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.team-cards .team-role {
+  min-height: 2.6em;
+  line-height: 1.3;
+}
+
+.team-cards .block-hero-service,
+.team-cards .hero-service,
+.team-cards .line-block {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.team-cards .hero-service {
+  align-items: center;
 }
 
 .team-card {
@@ -583,4 +621,19 @@ h1, h2, h3, h4, h5, h6 {
   .team-panel-body h2 {
     font-size: 28px;
   }
+}
+
+.navbar {
+  border-radius: 8px;
+}
+
+.button,
+a.button,
+.nav-button,
+a.nav-button {
+  height: 47px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding-top: 0;
+  padding-bottom: 0;
 }
