@@ -1,3 +1,46 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/Montserrat-Variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/Montserrat-Italic-Variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Oxanium";
+  src: url("/assets/fonts/Oxanium-Variable.ttf") format("truetype");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+body * {
+  font-family: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oxanium", sans-serif !important;
+}
+
+.w-icon-nav-menu,
+.w-icon-dropdown-toggle,
+.w-icon-slider-left,
+.w-icon-slider-right {
+  font-family: "webflow-icons" !important;
+}
+
 .featured-projects {
   grid-template-columns: 1fr 1fr;
 }
