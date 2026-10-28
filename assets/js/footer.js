@@ -2,7 +2,7 @@
   var mount = document.getElementById("site-footer");
   if (!mount) return;
 
-  fetch("/components/footer.html")
+  fetch("/components/footer.html?v=8", { cache: "no-store" })
     .then(function (response) {
       if (!response.ok) throw new Error("Footer failed to load");
       return response.text();

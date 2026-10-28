@@ -4,7 +4,7 @@
       name: "Engr. Mohammed Lukman Sadings",
       role: "Founder & Chief Executive Officer",
       photo: "/assets/brand/team/mohammed-lukman-sadings.jpg?v=3",
-      email: "civilmercltd@gmail.com",
+      email: "lukman.s@civilmerc.com",
       paragraphs: [
         "Mohammed founded Civil Merc and still sets the standard the company is judged by: work you can see, and a handover the client can trust.",
         "He leads the practice across civil engineering and real estate in Abuja, from the first client conversation through to a finished building or a completed road. The quality policy he signs asks for a zero-defect handover, checked against local codes, Eurocodes, and ASTM.",
@@ -15,7 +15,7 @@
       name: "Muhammad Sadiq Kanar",
       role: "Chief Operations Officer",
       photo: "/assets/brand/team/muhammad-sadiq-kanar.jpg",
-      email: "civilmercltd@gmail.com",
+      email: "sadiq.k@civilmerc.com",
       paragraphs: [
         "Sadiq keeps the work moving. As chief operations officer he turns a signed brief into a site that has people, materials, and a programme that actually holds.",
         "On Civil Merc jobs that means coordinating design, procurement, and site teams so a residential block in Asokoro or a road in Karshi does not stall between drawings and concrete.",
@@ -26,7 +26,7 @@
       name: "Engr. Abubakar Abbas Abashe",
       role: "Project Manager",
       photo: "/assets/brand/team/abubakar-abbas-abashe.jpg",
-      email: "civilmercltd@gmail.com",
+      email: "abubakar.a@civilmerc.com",
       paragraphs: [
         "Abubakar runs the job on the ground. He takes a project from the agreed scope through supervision, quality checks, and handover.",
         "That covers the work Civil Merc is known for in Abuja: bridges, culverts, and roads such as Gidan Daya in Karshi, and residential blocks the company delivers for private clients.",
@@ -37,7 +37,7 @@
       name: "Arc. Bashir Majiyebo Umar",
       role: "Lead Architect",
       photo: "/assets/brand/team/bashir-majiyebo-umar.jpg",
-      email: "civilmercltd@gmail.com",
+      email: "bashir.m@civilmerc.com",
       paragraphs: [
         "Bashir leads the architectural side of Civil Merc’s real estate work: how a building sits on its plot, how it is planned, and how it will be lived in.",
         "The practice’s residential work in Asokoro, Wuse, and Jahi starts with that drawing set. His role is to keep the design buildable, so the engineer and the site team are working from the same intent.",
