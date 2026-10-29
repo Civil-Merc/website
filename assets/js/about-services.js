@@ -1,15 +1,22 @@
-(function () {
-  if (!window.gsap || !window.ScrollTrigger) return;
+(function (global) {
+  var mm = null;
+
+  function init() {
+  if (!global.gsap || !global.ScrollTrigger) return;
+  if (mm) {
+    mm.revert();
+    mm = null;
+  }
 
   gsap.registerPlugin(ScrollTrigger);
 
   var grid = document.querySelector("[data-about-services]");
   if (!grid) return;
 
-  var cards = Array.prototype.slice.call(grid.querySelectorAll(".services"));
+  var cards = Array.prototype.slice.call(grid.querySelectorAll(".services:not(.cms-about-service-skeleton)"));
   if (!cards.length) return;
 
-  var mm = gsap.matchMedia();
+  mm = gsap.matchMedia();
 
   mm.add("(prefers-reduced-motion: reduce)", function () {
     gsap.set(cards, { autoAlpha: 1, x: 0 });
@@ -89,4 +96,8 @@
       ScrollTrigger.refresh();
     });
   });
-})();
+  }
+
+  global.CivilMercAboutServices = { init: init };
+  init();
+})(window);
